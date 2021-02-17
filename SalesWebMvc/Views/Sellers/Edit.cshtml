@@ -24,7 +24,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Seller.BirthDate" class="control-label"></label>
-                <input asp-for="Seller.BirthDate" class="form-control" id="BirthDate" />
+                <input asp-for="Seller.BirthDate" class="form-control" id="BirthDate" type="text" data-val="true" asp-format="{0:dd/MM/yyyy}" />
                 <span asp-validation-for="Seller.BirthDate" class="text-danger"></span>
             </div>
             <div class="form-group">
